@@ -14,6 +14,7 @@ class PostItem extends Component {
     }
     render() {
         return (
+            this.props.visibleStatus && 
             <div className="jumbotron pt-4 pb-4">
                 <blockquote className="blockquote row">
                     <div className="col-lg-12">

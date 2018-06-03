@@ -21,6 +21,7 @@ class Albums extends Component {
             });
         }
         return (
+            this.props.visibleStatus && 
             <div className="albums mt-3 text-center" id="accordion-album">
                 <a data-toggle="collapse" href={"#collapse-album"+this.props.user.id} role="button" aria-expanded="false" aria-controls={"collapse-album"+this.props.user.id} data-parent="#accordion-album">
                     <h4><strong>Albums</strong></h4>

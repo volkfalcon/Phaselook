@@ -7,7 +7,7 @@ class CommentItem extends Component {
     render() {
         return (
             <div className="alert alert-dismissible alert-success">
-                {this.props.comment.name}<button type="button" className="close" data-dismiss="alert" onClick={this.deleteComment.bind(this, this.props.comment.id)}>&times;</button>
+                {this.props.comment.name}<button type="button" className="close" data-dismiss="alert" onClick={this.deleteComment.bind(this, this.props.key)}>&times;</button>
             </div>
             
         );

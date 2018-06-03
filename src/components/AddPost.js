@@ -29,6 +29,7 @@ class AddPost extends Component {
 
     render() {
         return (
+            this.props.visibleStatus && 
             <div className="add-post mt-3 row">
                 <form className="col-lg-12 form-horizontal my-2 my-lg-0" onSubmit={this.handleSubmit.bind(this)}>
                     <input className="form-control p-3" type="text" ref="post" placeholder="Add new post..." />

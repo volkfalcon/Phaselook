@@ -116,6 +116,13 @@ class App extends Component {
     this.getPhotos();
   }
 
+  componentDidMount(){
+    this.getPosts();
+    this.getComments();
+    this.getAlbums();
+    this.getPhotos();
+  }
+
   handleAddComment(comment){
     //console.log(post);
     let comments = this.state.comments;

@@ -14,8 +14,8 @@ class Comments extends Component {
             commentItems = _commentItems.map(comment => {
                 return (
                     <CommentItem
-                        key={comment.id}
                         comment={comment}
+                        key={comment.id}
                         deleteComment={this.deleteComment.bind(this)}
                     />
                 );
