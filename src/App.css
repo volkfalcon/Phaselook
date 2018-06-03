@@ -1,0 +1,11 @@
+.wrapper{
+  margin: 10px;
+}
+
+.alert-success{
+  background-color:#ddf5eb !important;
+}
+
+.alert{
+  color: #5a5a5a !important;
+}
