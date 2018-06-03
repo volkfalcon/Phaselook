@@ -9,3 +9,8 @@
 .alert{
   color: #5a5a5a !important;
 }
+
+.btn{
+  white-space:normal;
+  word-wrap: break-word;
+}

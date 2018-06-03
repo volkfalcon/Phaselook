@@ -25,7 +25,7 @@ class Photos extends Component {
                 {photoItems}
             </div>
         );
-    }
+    } 
 }
 
 export default Photos;
