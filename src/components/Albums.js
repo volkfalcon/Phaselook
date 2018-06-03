@@ -26,9 +26,9 @@ class Albums extends Component {
                     <h4><strong>Albums</strong></h4>
                 </a>
                 
-                <ul className="collapse" id={"collapse-album"+this.props.user.id}>
+                <div className="collapse" id={"collapse-album"+this.props.user.id}>
                     {albumItems}
-                </ul>
+                </div>
             </div>
         );
     }

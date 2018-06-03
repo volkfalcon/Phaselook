@@ -39,9 +39,9 @@ class Posts extends Component {
                     <h4><strong>Posts</strong></h4>
                 </a>
                 
-                <ul className="collapse" id={"collapse-post"+this.props.user.id}>
+                <div className="collapse" id={"collapse-post"+this.props.user.id}>
                     {postItems}
-                </ul>
+                </div>
             </div>
         );
     }
